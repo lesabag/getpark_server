@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'routes/api' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\package.json
+5 warn package.json getpark_server@1.0.0 No description
+6 warn package.json getpark_server@1.0.0 No repository field.
+7 warn package.json getpark_server@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\body-parser\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\express\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\http\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\mongoose\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\node-restful\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\node-xmpp-client\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\node-xmpp-component\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\node-xmpp-server\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\npm\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\node_modules\routes\package.json
+18 info package.json http@0.0.0 http is also the name of a node core module.
+19 info package.json http@0.0.0 No description
+20 info package.json http@0.0.0 No repository field.
+21 info package.json http@0.0.0 No README data
+22 info package.json node-restful@0.2.5 No license field.
+23 info package.json npm@2.15.0 Non-dependency in bundleDependencies: ansi-regex
+24 info package.json npm@2.15.0 Non-dependency in bundleDependencies: imurmurhash
+25 info package.json routes@2.1.0 No license field.
+26 verbose readDependencies loading dependencies from C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer\package.json
+27 silly cache add args [ 'routes/api', null ]
+28 verbose cache add spec routes/api
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'routes/api',
+29 silly cache add   scope: null,
+29 silly cache add   name: null,
+29 silly cache add   rawSpec: 'routes/api',
+29 silly cache add   spec: 'github:routes/api',
+29 silly cache add   type: 'hosted',
+29 silly cache add   hosted:
+29 silly cache add    { type: 'github',
+29 silly cache add      ssh: 'git@github.com:routes/api.git',
+29 silly cache add      sshUrl: 'git+ssh://git@github.com/routes/api.git',
+29 silly cache add      httpsUrl: 'git+https://github.com/routes/api.git',
+29 silly cache add      gitUrl: 'git://github.com/routes/api.git',
+29 silly cache add      shortcut: 'github:routes/api',
+29 silly cache add      directUrl: 'https://raw.githubusercontent.com/routes/api/master/package.json' } }
+30 verbose addRemoteGit caching routes/api
+31 verbose addRemoteGit routes/api is a repository hosted by github
+32 silly tryGitProto attempting to clone git://github.com/routes/api.git
+33 silly tryClone cloning routes/api via git://github.com/routes/api.git
+34 verbose tryClone git-github-com-routes-api-git-c0603e87 not in flight; caching
+35 verbose correctMkdir C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+36 verbose git clone --template=C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/routes/api.git C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\git-github-com-routes-api-git-c0603e87: undefined
+36 verbose git clone --template=C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/routes/api.git C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\git-github-com-routes-api-git-c0603e87: undefined
+37 silly tryHTTPS attempting to clone git+https://github.com/routes/api.git
+38 silly tryClone cloning routes/api via git+https://github.com/routes/api.git
+39 verbose tryClone https-github-com-routes-api-git-5a7f47d1 not in flight; caching
+40 verbose correctMkdir C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+41 verbose git clone --template=C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/routes/api.git C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\https-github-com-routes-api-git-5a7f47d1: undefined
+41 verbose git clone --template=C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/routes/api.git C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\https-github-com-routes-api-git-5a7f47d1: undefined
+42 silly trySSH attempting to clone git@github.com:routes/api.git
+43 silly tryClone cloning routes/api via git@github.com:routes/api.git
+44 verbose tryClone git-github-com-routes-api-git-abd70b90 not in flight; caching
+45 verbose correctMkdir C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+46 error git clone --template=C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:routes/api.git C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\git-github-com-routes-api-git-abd70b90: undefined
+46 error git clone --template=C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:routes/api.git C:\Users\liore.ADHARMAN\AppData\Roaming\npm-cache\_git-remotes\git-github-com-routes-api-git-abd70b90: undefined
+47 verbose stack Error: not found: git
+47 verbose stack     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:63:19)
+47 verbose stack     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:72:29)
+47 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:16
+47 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+47 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+47 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+48 verbose cwd C:\Users\liore.ADHARMAN\IdeaProjects\getParkServer
+49 error Windows_NT 6.1.7601
+50 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "routes/api"
+51 error node v4.4.2
+52 error npm  v2.15.0
+53 error code ENOGIT
+54 error not found: git
+55 error Failed using git.
+55 error This is most likely not a problem with npm itself.
+55 error Please check if you have git installed and in your PATH.
+56 verbose exit [ 1, true ]
